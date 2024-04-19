@@ -1,0 +1,6 @@
+1)サーバーに接続
+chmod 600 Downloads/private_key.txt
+ssh -2 -i Downloads/private_key.txt -l ubuntu ***.**.**.***
+2)ログ確認
+sudo su -
+docker logs -f ev
